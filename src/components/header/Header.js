@@ -37,7 +37,7 @@ const Header = () => {
     <div className="container">
         <nav className="navbar navbar-light navbar-expand-md">
             <div className="container-fluid">
-              <a className="navbar-brand"><img className="img-fluid me-2" src={notes} width="48px" alt="logo"/>Notatnik {time.toLocaleTimeString()}</a>
+              <a className="navbar-brand"><img className="img-fluid me-2" src={notes} width="48px" alt="logo"/>Notatnik</a>
               <button className="navbar-toggler d-none" data-bs-toggle="collapse" data-bs-target="#navcol-1">
                 <span className="visually-hidden">Toggle navigation</span>
                 <span className="navbar-toggler-icon"></span>
