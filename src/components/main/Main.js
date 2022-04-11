@@ -6,7 +6,7 @@ const Main = () => {
   const [list, setList] = useState(() => {
     const saved = localStorage.getItem("tasks");
     const initialValue = JSON.parse(saved);
-    return initialValue || "yyyy"; // nie jestem pewien czy tak powinno byc
+    return initialValue || ""; 
   });
   const [inputValue, setInputValue] = useState("");
   const [isActive, setActive] = useState([]);
