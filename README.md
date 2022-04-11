@@ -1,6 +1,6 @@
 # Notatnik
 
-Notatnik is small app based on React. Its kind of to do list. App will let you add and delete new task on your list.
+Notatnik is small app based on React. Its kind of to do list. App will let you add and delete new task on your list as well as clear all the task completly.
 
 
 # Live demo

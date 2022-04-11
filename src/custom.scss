@@ -1,0 +1,47 @@
+// VARS
+$primary: #0d6efd !important;
+$secondary: skyblue;
+
+// CARD BODY HOVER
+.custom-hover {
+  .card-body {
+  }
+  &:hover {
+    cursor: pointer;
+    .card-body {
+      background: $primary;
+      color: #fff;
+    }
+    .btn {
+        color: #fff;
+    }
+    .bg-custom-primary {
+      background: $primary;
+    }
+  }
+}
+
+.bg-custom-primary {
+  background: $primary;
+}
+
+/* LIST */
+.app-name {
+  color: rgb(54, 52, 52);
+}
+li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.timer {
+  padding: 10px;
+  color: rgb(138, 132, 132);
+}
+
+
+// Footer
+footer {
+  position: sticky;
+  bottom: 0;
+}
